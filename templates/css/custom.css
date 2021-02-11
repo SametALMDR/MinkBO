@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    background: url('../img/body-bg.png');
+}
+.overflow-visible {
+    overflow: visible;
+}
+.w-init {
+    width: initial !important;
+}
+.h-init {
+    height: initial !important;
+}
+.bg-one {
+    background: #0948b3 !important;
+}
+.header-top-navigation ul li {
+    margin-right: 40px;
+}
+.header-top-navigation ul li a {
+    color: white;
+    font-size: 15px;
+    padding: 20px 0;
+}
+.header-top-navigation ul li:hover .list-title, .header-top-navigation ul li.active .list-title {
+    color: #70a5ff;
+}
+.sticky {
+    box-shadow: 0 0 8px 1px rgb(0 0 0 / 40%);
+}
+.top-search-box {
+    border-bottom: 0;
+    background: white;
+    padding: 5px 15px;
+    border-radius: 32px;
+    box-shadow: 0 0 5px 1px #748cb3;
+}
+.top-search-btn {
+    right: 10px;
+}
+.profile-setting-box .profile-dropdown {
+    margin-top: 11px;
+}
+.logo-scale {
+    transform: scale(0.8);
+}
+.signup-inner .title {
+    background: #0948b3 !important
+}
+.login-right-bg {
+    background: url('../img/login-bg.png');
+    background-size: contain;
+}
+.signup-inner--form .single-field {
+    border: 2px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6c757d;
+    transition: all .5s;
+}
+.signup-inner--form .single-field:focus {
+    border-color: #6c757d !important
+}
+.mink-text {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 80px;
+}
+.mink-text-desc {
+    font-size: 30px;
+    opacity: 0.6;
+}
+.btn-custom {
+    background: #0748b3 !important;
+}
+.btn-custom:hover{
+    background: #4a73b7 !important;
+}
+.log-btn-custom {
+    background: #0748b3 !important;
+}
+.log-btn-custom:hover{
+    background: #4a73b7 !important;
+    transform: scale(1.02);
+}
+.signup-inner--form .submit-btn:hover {
+    transform: scale(1.02);
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .login-left-side {
+        display: none;
+    }
+}
+
+.signup-inner--form .nice-select {
+    border: 2px solid #e8e8e8;
+    border-radius: 8px;
+    font-size: 13px;
+    height: 45px;
+    font-weight: 500;
+    color: #6c757d;
+    transition: all .5s;
+}
+
+.signup-inner--form .nice-select, .signup-inner--form .single-field {
+    margin-bottom: 15px;
+}
+.signup-inner--form .nice-select .list {
+    max-height: 200px;
+    overflow: auto;
+}
+
+/**
+Homepage
+ */
+
+.box-center {
+    display: flex;
+    align-items: center;
+}
+.left-widget .unorder-list {
+    transition: .3s all;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.left-widget .unorder-list:hover {
+    background: #0948b330;
+    box-shadow: 0 0 5px 0 #0948b380;
+}
+
+.frnd-search-title {
+    background: #0948b3 !important;
+}
+.share-text-box .btn-share,.scroll-top,.live-chat-title,.message-list li.text-author {
+   background:  #0948b3 !important
+}
+.active-profiles-wrapper .slick-arrow .bi {
+    color: #0948b3;
+    font-weight: bold;
+}
+.live-chat-field {
+    height:70px !important;
+}
+.scroll-top {
+    z-index: 5;
+}
+.chat-output-box,.friend-search-list {
+    bottom: calc(100%);
+    border-bottom: 2px solid #0948b3;
+}
+.chat-output-box .message-list{
+    margin: 0;
+}
+.friend-search-list .frnd-search-inner {
+    margin: 5px 0;
+}
+.header-top-navigation ul li.active a {
+    color: #0748b3;
+}
+.edit-btn {
+    background: #0748b3;
+}
+.nice-select-none select{
+    display: block !important;
+}
+.nice-select-none .nice-select {
+    display: none !important;
+}
+.cover-change {
+    position: absolute;
+    top: 55px;
+    background: #04378c;
+    right: 0;
+    color: white !important;
+    padding: 15px;
+    box-shadow: 0 0 10px 0 #55657d;
+    cursor:pointer;
+}
+.cover-change-btns {
+    position: absolute;
+    top: 55px;
+    background: #04378c;
+    right: 0;
+    color: white !important;
+    padding: 15px;
+    box-shadow: 0 0 10px 0 #55657d;
+    cursor:pointer;
+}
+.pp-change,.pp-change-btns {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #0948b2;
+    color: white !important;
+    padding: 5px 15px;
+    box-shadow: 0 0 9px 0 #c1c1c1;
+    cursor: pointer;
+}
+.fs-14 {
+    font-size: 14px !important;
+}
+.post-thumb {
+    padding:15px
+}
+.post-thumb img {
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: 0 0 5px 0 #ddd;
+    height: 250px;
+    object-fit: cover;
+}
+.post-images img{
+    padding: 5px;
+    box-shadow: 0px 0px 5px 0px #ddd;
+    height: 130px;
+    object-fit: cover;
+}
+.remove-post-file {
+    margin-bottom: 5px;
+}
+.pointer {
+    cursor:pointer;
+}
+.img-gallery .slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.img-gallery .slick-prev i,.img-gallery .slick-next i {
+    color: #0748b3;
+    font-size: 23px;
+}
+.img-gallery .slick-next{
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.readed {
+    color: #0948b3 !important;
+    font-weight: bold;
+}
+.not-title {
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    background: #41b307;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+.fs-12 {
+    font-size: 12px !important;
+}
+.accept-friend-request {
+    background: #42b307;
+    color: white;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+.delete-friend-request {
+ background: #b31707;
+ color: white;
+ padding: 2px 5px;
+ cursor: pointer;
+}
+.clr-main {
+    color: #0748b3 !important;
+}
+.friends-section .content-box.friends-zone .friend-list-view:hover {
+    background: #0748b3;
+}
+.del-frnd:hover {
+    color:white
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #4c596d;
+}
+
+::selection {
+    color: white;
+    background: #4c596d;
+}
+
+.clr-red,.clr-red span,.clr-red i {
+    color:#dc4734;
+}
+
+.post-meta{
+    border-bottom: 1px dashed #e4e4e4;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.comment-bg {
+    width: 100%;
+    border: none;
+    display: block;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    box-shadow: 0px 0px 7px 0px #d2d2d2;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin-bottom: 5px;
+}
+
+.comment-user {
+    color: #333333 !important;
+    font-weight: bold;
+}
+.post-desc {
+    padding-bottom: 0;
+}
+.author a {
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.author a:hover {
+    color:#0948b3 !important;
+}
+.profile-thumb.passive:before {
+    bottom: 2px;
+    right: -2px;
+    width: 10px;
+    height: 10px;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    background-color: #616161;
+}
+.force-hide {
+    display: none !important;
+}
+
+.alertPulse-css {
+    animation: alertPulse 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 1;
+    background: #c8dcff; /* you need this to specify a color to pulse to */
+    padding: 5px;
+    transition: all .3s;
+}
+.chat-output-box.show,.friend-search-list.show {
+    box-shadow: 0px 0px 15px 0px #cccccc;
+}
+.live-chat-title .author a:hover {
+    color:white !important;
+}
+.message-list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Make the element pulse (grow large and small slowly) */
+/* Usage
+    .myElement {
+        animation: pulsate 1s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 1;
+    }
+*/
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+/* Make the element's opacity pulse*/
+/* Usage
+    .myElement {
+        animation: opacityPulse 1s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 0;
+    }
+*/
+@-webkit-keyframes opacityPulse {
+    0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+
+/* Make the element's background pulse. I call this alertPulse because it is red. You can call it something more generic. */
+/* Usage
+    .myElement {
+        animation: alertPulse 1s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 1;
+    }
+*/
+@-webkit-keyframes alertPulse {
+    0% {background-color: #d4d4d4; opacity: 1;}
+    50% {opacity: red; opacity: 0.75; }
+    100% {opacity: #d4d4d4; opacity: 1;}
+}
+
+
+/* Make the element rotate infinitely. */
+/*
+Usage
+    .myElement {
+        animation: rotating 3s linear infinite;
+    }
+*/
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

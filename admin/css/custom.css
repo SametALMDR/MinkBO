@@ -1,0 +1,35 @@
+/* Add here all your CSS customizations */
+
+.fs-14 {
+    font-size:14px;
+}
+.fs-12 {
+    font-size:12px;
+}
+.pointer{
+    cursor: pointer;
+}
+.b-none {
+    border:0;
+    background: none;
+}
+.readed {
+    background: #0088cc;
+    color:white;
+    font-weight: bold;
+    padding:5px 10px;
+    border-radius: 50px;
+}
+.unreaded {
+    background: #cc0000;
+    color:white;
+    font-weight: bold;
+    padding:5px 10px;
+    border-radius: 50px;
+}
+.custom-title {
+    color: #222529;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
